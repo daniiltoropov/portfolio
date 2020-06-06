@@ -1,0 +1,311 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.col {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.language-section {
+  width: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.box {
+  background-color: #FAFAFA;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: calc(1.25rem + 32px + 1rem);
+}
+
+.box:hover{
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0;
+    margin-top:20px; }
+}
+
+@media (min-width: 812px) {
+  .container {
+    width: 85%; }
+
+  .col-2{
+    margin-left: 4%; }
+
+  .col-1 { width: 26%; }
+  .col-2 { width: 70%; }
+
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:5rem;
+    flex: 1;
+  }
+
+  .container {
+    display: flex; /* equal height of the children */
+    margin-top:5rem;
+  }
+
+  .hide-large {
+    display:none;
+  }
+
+  .language-section {
+    width: 33.3333333333333%;
+  }
+
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  color: #212121;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+  color: #212121;
+}
+
+h1 { font-size: 3rem;}
+h2 { font-size: 2.5rem;}
+h3 { font-size: 2rem;}
+h4 { font-size: 1.5rem;}
+h5 { font-size: 1.25rem; line-height: 2;}
+
+p {
+  margin-top: 0; }
+
+b {
+  font-weight:600
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1;
+}
+
+.mb-0 {
+  margin-bottom: 0rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.pfp {
+  margin-bottom:0.25rem;
+  border-radius: 50px;
+}
+
+.light {
+  color: #616161;
+}
+
+.pfp {
+  margin-bottom:0.25rem;
+  border-radius: 50px;
+}
+
+.header {
+  padding-left: 16px;
+  padding-bottom: 5px;
+  line-height: 1.25;
+  font-weight: 700;
+  transition: 0.25s;
+}
+
+.header:hover {
+  padding-left: 24px;
+  background-color: #FAFAFA;
+}
+
+.light {
+  color: #616161;
+}
+
+.btn {
+	display: inline-block;
+	font-weight: 600;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: .4375rem 1.25rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .3125rem;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn:hover {
+	text-decoration: none;
+}
+
+.btn.focus,
+.btn:focus {
+	outline: 0;
+	box-shadow: 0 0 0 .2rem rgba(55, 85, 190, .25)
+}
+
+.side-link {
+  /* border-left: 4px solid #2196F3;
+	padding-left: 8px; */
+  color: #000;
+  transition: 0.25s;
+  margin-bottom: 0.75rem!important;
+  line-height: 1.5;
+}
+/* ICONS */
+
+.fab {
+  margin-right: 10px;
+}
+
+.fa-html5 {
+  color: #DE6E3C;
+}
+
+.fa-css3-alt {
+  color: #53A7DC;
+}
+
+.fa-sass {
+  color: #cd6799;
+}
+
+.fa-less {
+  color: #1c3d68;
+}
+
+.fa-bootstrap {
+  color: #563d7c;
+}
+
+.fa-js-square {
+  color: #F1DE4F;
+}
+
+.fa-node-js {
+  color: #83cd29;
+}
+
+.fa-php {
+  color: #6781bb;
+}
+
+.fa-python {
+  color: #3778ae;
+}
+
+.fa-java {
+  color: #00758f;
+}
+
+
+@media (min-width: 812px) {
+  .b1 {
+    margin-right:0.75rem;
+  }
+
+  .b2 {
+    margin-left:0.75rem;
+    margin-right:0.75rem;
+  }
+
+  .b3 {
+    margin-left:0.75rem;
+  }
+
+  .b4 {
+    margin-right :0.75rem;
+  }
+
+  .b5 {
+    margin-left:0.75rem;
+    margin-right:0.75rem;
+  }
+
+  .b6 {
+    margin-left:0.75rem;
+  }
+
+  .b7 {
+    margin-right:0.75rem;
+  }
+
+  .b8 {
+    margin-left:0.75rem;
+    margin-right:0.75rem;
+  }
+}
+
+@media (max-width: 812px) {
+.b1 {
+  margin-right:0.75rem;
+}
+
+.b2 {
+  margin-left:0.75rem;
+}
+
+.b3 {
+  margin-right:0.75rem;
+}
+
+.b4 {
+  margin-left:0.75rem;
+}
+
+.b5 {
+  margin-right:0.75rem;
+}
+
+.b6 {
+  margin-left:0.75rem;
+}
+
+.b7 {
+  margin-right:0.75rem;
+}
+
+.b8 {
+  margin-left:0.75rem;
+}
+
+}
