@@ -1,0 +1,24 @@
+body {
+  color: #212121;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #212121;
+}
+
+hr {
+  border-top: 1px solid #E1E1E1;
+}
+
+.box {
+  background-color: #FAFAFA;
+}
+
+.box:hover{
+  background-color: #F5F5F5;
+}
+
+a.no-recolor {
+	color: #212121;
+}
