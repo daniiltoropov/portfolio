@@ -26,14 +26,12 @@
 }
 
 .box {
-  background-color: #FAFAFA;
   border-radius: 0.5rem;
   padding: 1rem;
   height: calc(1.25rem + 32px + 1rem);
 }
 
 .box:hover{
-  background-color: #F5F5F5;
   border-radius: 0.5rem;
   padding: 1rem;
 }
@@ -82,14 +80,12 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-  color: #212121;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1.25rem;
   font-weight: 600;
-  color: #212121;
 }
 
 h1 { font-size: 3rem;}
@@ -109,7 +105,6 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1;
 }
 
 .mb-0 {
@@ -129,15 +124,6 @@ hr {
   border-radius: 50px;
 }
 
-.light {
-  color: #616161;
-}
-
-.pfp {
-  margin-bottom:0.25rem;
-  border-radius: 50px;
-}
-
 .header {
   padding-left: 16px;
   padding-bottom: 5px;
@@ -149,10 +135,6 @@ hr {
 .header:hover {
   padding-left: 24px;
   background-color: #FAFAFA;
-}
-
-.light {
-  color: #616161;
 }
 
 .btn {
@@ -184,13 +166,10 @@ hr {
 }
 
 .side-link {
-  /* border-left: 4px solid #2196F3;
-	padding-left: 8px; */
-  color: #000;
-  transition: 0.25s;
   margin-bottom: 0.75rem!important;
   line-height: 1.5;
 }
+
 /* ICONS */
 
 .fab {
